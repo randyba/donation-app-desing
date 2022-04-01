@@ -1,0 +1,168 @@
+/*dimensions: iPhone 12 pro*/
+body {
+  margin: 0px;
+}
+
+.image {
+  background-image: url(./images/girls.jpg);
+  background-size: 445px 300px;
+  height: 300px;
+  width: 370px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/*superior icons*/
+.container-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.superior-icons {
+  background-color: rgba(255, 255, 255, 0.507);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 3.5px solid white;
+  border-right: 3.5px solid white;
+  margin-top: 11px;
+  border-radius: 2px;
+  margin-left: 13px;
+}
+
+.arrow-left {
+  transform: rotate(-135deg);
+}
+
+.bookmark-icon {
+  color: white;
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  border-top: solid 19px white;
+  border-left: solid 6px white;
+  border-right: solid 6px white;
+}
+
+.bookmark-icon::before {
+  content: "";
+  position: absolute;
+  top: -2.5px;
+  left: -3.2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 0 6px 6px 6px;
+  border-top: solid 7px white;
+  border-left: solid 7px white;
+  -webkit-transform: rotate(48deg);
+  transform: rotate(45deg);
+}
+
+.all-text {
+  text-align: left;
+}
+
+.title {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/*text zone*/
+.text {
+  margin-left: 30px;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  color: #9d9d9d;
+  font-weight: 100;
+}
+
+span {
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+
+.donate-seccion {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.donated {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #9d9d9d;
+  font-weight: 100;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+}
+
+.photo-donated {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+}
+
+.ellipse {
+  height: 28px;
+  width: 28px;
+  border-radius: 15px;
+  margin-left: -8px;
+}
+
+.logo9 {
+  background-color: #f3f3f3;
+  height: 28px;
+  width: 28px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: black;
+  margin-left: -8px;
+}
+
+.total-donation {
+  color: #9d9d9d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.principal-button {
+  background: linear-gradient(180deg, #ff617d 0%, rgba(255, 97, 125, 0.7) 100%);
+  border-radius: 15px;
+  border: 0px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  height: 55px;
+  width: 330px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
